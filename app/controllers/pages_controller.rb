@@ -12,4 +12,8 @@ class PagesController < ApplicationController
     @title = "About"
   end
 
+  def search
+    @title = "Search results"
+    @content = User.find_by_username(params[:username])
+  end
 end

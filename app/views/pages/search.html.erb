@@ -1,0 +1,5 @@
+<% if @content.nil? %>
+  <%= "Couldn't find user" %>
+<%else%>
+<%= "You found #{@content.username}" %>
+<%end%>

@@ -8,6 +8,6 @@ MusicApp::Application.routes.draw do
 
   match '/news' => 'Pages#updates'  
 
-  match 'users' => 'Users#show'
+  match '/searchResults' => 'Pages#search'
 
 end
