@@ -1,35 +1,53 @@
-body {
-
-background: black;
-
+html {
+background:black;
 }
 
+/*_header.html.erb CSS*/
 .navBar {
 
 background-color: white;
-width: 100px;
 text-align: center;
 color: black;
 margin: 1em;
 -moz-border-radius:    10px;
 -webkit-border-radius: 10px;
 border-radius:         10px;
+width: auto;
 }
 
-.header{
 
-background-image: url(../images/Pat-Metheny.jpg);
-
+.navBar ul li{
+color: black;
+display:inline-block;
+padding: 0em 2em;
 }
 
-.navBar a{
-
+.navBar ul li a{
 color: black;
 }
 
-.pm_img{
+.navBar ul{
+text-align:center;
+padding:0em;
+}
 
-top:0px;
-left:0px;
+/*Home Page*/
+.signup_button {
+width:25%;
+position:absolute;
+left:37.5%;
+top:25%;
+background: white;
+-moz-border-radius:    10px;
+-webkit-border-radius: 10px;
+border-radius:         10px;
+color:black;
+font-size:200%;
+text-align:center;
+padding:1em;
+}
 
+.signup_button a {
+text-decoration:none;
+color:black;
 }
