@@ -1,0 +1,4 @@
+<%= form_tag('/users', :method => "get")%>
+<%= label_tag("Go to a user's page:") %>
+  <%=select_tag(:id, options_from_collection_for_select(User.all, "id",   "username")) %>
+<%= submit_tag("Submit") %>

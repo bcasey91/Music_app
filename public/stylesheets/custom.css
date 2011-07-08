@@ -1,11 +1,11 @@
 html {
-background:black;
+background:white;
 }
 
 /*_header.html.erb CSS*/
 .navBar {
 
-background-color: white;
+background-color: red;
 text-align: center;
 color: black;
 margin: 1em;
@@ -37,7 +37,7 @@ width:25%;
 position:absolute;
 left:37.5%;
 top:25%;
-background: white;
+background: black;
 -moz-border-radius:    10px;
 -webkit-border-radius: 10px;
 border-radius:         10px;
@@ -49,5 +49,5 @@ padding:1em;
 
 .signup_button a {
 text-decoration:none;
-color:black;
+color:white;
 }
